@@ -1,0 +1,5 @@
+; $Id$
+name = CSV
+description = Provides new theme function to format table array as CSV.
+package = Other
+core = 6.x
