@@ -74,7 +74,7 @@ function theme_csv($header, $rows, $attributes = array(), $caption = NULL,
 
   // Process caption.
   if (isset($caption) && $caption) {
-    fputcsv($outstream, $caption, $delimiter, $enclosure);
+    fputcsv($outstream, array($caption), $delimiter, $enclosure);
   }
 
   // Process header.
