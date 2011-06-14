@@ -1,4 +1,3 @@
-// $Id$
 
 CSV is a module targetted at Drupal developers, allowing to
 format standard table array as CSV, mimicking Drupal's built-in
